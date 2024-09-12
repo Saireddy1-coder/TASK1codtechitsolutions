@@ -1,0 +1,10 @@
+module ANDGate (
+    input wire A, // Input A
+    input wire B, // Input B
+    output wire Y  // Output Y
+);
+
+// AND gate logic
+assign Y = A & B;
+
+endmodule
